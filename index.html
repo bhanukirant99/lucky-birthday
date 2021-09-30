@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/1ad4d3ae1e.js" crossorigin="anonymous"></script>
+    <title>Lucky Birthday</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <div class="intro">
+            <h1>Is your birthday lucky...?</h1>
+        </div>
+    </div>
+    <div class="container" id="container">
+        <div class="game">
+            <h3>Enter your birthday and lucky number to play </h3>
+            <form action="" onsubmit="return false">
+                <input type="date" class="user-birthday" placeholder="Enter your DOB here." required>
+                <input type="number" class="user-number" placeholder="Enter your lucky number" required>
+                <button class="find-btn" type="submit">Find Out</button>
+            </form>
+
+            <div class="output">
+                <p class="output-para">Waiting for your input...</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
